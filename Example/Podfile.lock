@@ -1,0 +1,16 @@
+PODS:
+  - PodMediastreamPlatformSDKiOS (0.1.0)
+
+DEPENDENCIES:
+  - PodMediastreamPlatformSDKiOS (from `../`)
+
+EXTERNAL SOURCES:
+  PodMediastreamPlatformSDKiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodMediastreamPlatformSDKiOS: 0503b6628840a6a537e4f481c7598edd8117eb96
+
+PODFILE CHECKSUM: 12274fe6b2b33ca4bde2ad4c18f9193818c9b98e
+
+COCOAPODS: 1.5.0
