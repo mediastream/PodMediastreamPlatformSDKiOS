@@ -1,6 +1,0 @@
-framework module PodMediastreamPlatformSDKiOS {
-  umbrella header "PodMediastreamPlatformSDKiOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
