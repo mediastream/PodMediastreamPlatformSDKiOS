@@ -1,0 +1,6 @@
+framework module MediastreamPlatformSDKiOS {
+  umbrella header "MediastreamPlatformSDKiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

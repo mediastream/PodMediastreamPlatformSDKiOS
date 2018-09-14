@@ -1,0 +1,22 @@
+{
+  "name": "MediastreamPlatformSDKiOS",
+  "version": "0.1.0",
+  "summary": "A short description of MediastreamPlatformSDKiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cruiz666/MediastreamPlatformSDKiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cruiz666": "ruizcarlos1985@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/cruiz666/MediastreamPlatformSDKiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MediastreamPlatformSDKiOS/Classes/**/*"
+}
