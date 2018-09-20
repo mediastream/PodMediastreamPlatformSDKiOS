@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81D9011B4878A1DDDC35D88084280E70 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067AB90CCEB351A80940682E757A0B70 /* ReplaceMe.swift */; };
 		8B51E04D99785971DF5FCAC60416C00F /* Pods-MediastreamPlatformSDKiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A884409D38902F36B460F1F9CE447309 /* Pods-MediastreamPlatformSDKiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96D91CDC5B1EEB9333B923CFF8E08423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A7DE8B588BDF79B9BAE4DD0C44A42A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AD897D846031FD461907C1F372F90653 /* MediastreamPlatformSDKiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29337EA5346CFCADD3C24873AB0077DB /* MediastreamPlatformSDKiOS-dummy.m */; };
 		CDC826D34C3536B1ACE3599C8E6F1E70 /* Pods-MediastreamPlatformSDKiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD99F916CF8ECF084FF6E302AFB127A /* Pods-MediastreamPlatformSDKiOS_Tests-dummy.m */; };
+		E5439AC42153D4FE001DA57D /* MediastreamPlatformSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AC32153D4FE001DA57D /* MediastreamPlatformSDK.swift */; };
+		E5439AC62153E3A8001DA57D /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AC52153E3A8001DA57D /* RestApiManager.swift */; };
+		E5439AC82153E3C4001DA57D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AC72153E3C4001DA57D /* SwiftyJSON.swift */; };
+		E5439ACA2153E3E1001DA57D /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AC92153E3E1001DA57D /* EventManager.swift */; };
+		E5439ACC2153E3F6001DA57D /* MediastreamPlayerTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439ACB2153E3F6001DA57D /* MediastreamPlayerTracker.swift */; };
+		E5439AD02153E43E001DA57D /* MediastreamLoadingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439ACF2153E43E001DA57D /* MediastreamLoadingUIView.swift */; };
+		E5439AD42153E4BA001DA57D /* MediastreamCustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AD32153E4BA001DA57D /* MediastreamCustomUIView.swift */; };
+		E5439AD72153E935001DA57D /* MediastreamLoadingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AD52153E935001DA57D /* MediastreamLoadingUIView.swift */; };
+		E5439AD82153E935001DA57D /* MediastreamEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AD62153E935001DA57D /* MediastreamEventHandler.swift */; };
+		E5439ADA2154192A001DA57D /* MediastreamMessagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5D9619A214C009300BE3FED /* MediastreamMessagesView.xib */; };
+		E5439ADC2154192A001DA57D /* MediastreamLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5439AD12153E483001DA57D /* MediastreamLoadingView.xib */; };
+		E5439ADD2154192A001DA57D /* MediastreamCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5439AD22153E4A4001DA57D /* MediastreamCustomView.xib */; };
+		E5439AE421541EE4001DA57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5439AE321541EE4001DA57D /* Assets.xcassets */; };
+		E5D96199214C005C00BE3FED /* MediastreamMessagesUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D96198214C005C00BE3FED /* MediastreamMessagesUIView.swift */; };
+		E5D9619C214C00AF00BE3FED /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9619B214C00AF00BE3FED /* Asset.swift */; };
+		E5D9619E214C00C400BE3FED /* AssetLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9619D214C00C400BE3FED /* AssetLoaderDelegate.swift */; };
+		E5D961A0214C00DA00BE3FED /* AssetPlaybackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9619F214C00DA00BE3FED /* AssetPlaybackManager.swift */; };
+		E5D961A2214C00ED00BE3FED /* MediastreamPlayerReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D961A1214C00ED00BE3FED /* MediastreamPlayerReachability.swift */; };
+		E5D961A4214C011900BE3FED /* MediastreamPlatformSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D961A3214C010D00BE3FED /* MediastreamPlatformSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D961A6214C013800BE3FED /* MediastreamPlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D961A5214C013800BE3FED /* MediastreamPlayerConfig.swift */; };
 		E8414A22085D81C9C2B2D34F4AB62528 /* MediastreamPlatformSDKiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 720C7B7BD83795D59B087C79FB540EAA /* MediastreamPlatformSDKiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -26,22 +45,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E5439ADF21541A9A001DA57D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		067AB90CCEB351A80940682E757A0B70 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MediastreamPlatformSDKiOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0FD99F916CF8ECF084FF6E302AFB127A /* Pods-MediastreamPlatformSDKiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediastreamPlatformSDKiOS_Tests-dummy.m"; sourceTree = "<group>"; };
 		2186332EC895749BEFCC5E4E9F6EA6CE /* MediastreamPlatformSDKiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediastreamPlatformSDKiOS.xcconfig; sourceTree = "<group>"; };
 		2626CFCD96B533A4B1C1D7277794238E /* Pods-MediastreamPlatformSDKiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediastreamPlatformSDKiOS_Tests.modulemap"; sourceTree = "<group>"; };
 		29337EA5346CFCADD3C24873AB0077DB /* MediastreamPlatformSDKiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MediastreamPlatformSDKiOS-dummy.m"; sourceTree = "<group>"; };
-		33E877C483C1BFBD09E8BB6A13B8BA9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		33E877C483C1BFBD09E8BB6A13B8BA9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3BDA8BF46DB09E2E28389E44FB5B840F /* MediastreamPlatformSDKiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MediastreamPlatformSDKiOS.modulemap; sourceTree = "<group>"; };
 		4321062F7697E398EA54D4075C35A0CB /* Pods-MediastreamPlatformSDKiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediastreamPlatformSDKiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		674AD065E5BA0798F752F73D0E83C63A /* MediastreamPlatformSDKiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediastreamPlatformSDKiOS-prefix.pch"; sourceTree = "<group>"; };
 		720C7B7BD83795D59B087C79FB540EAA /* MediastreamPlatformSDKiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediastreamPlatformSDKiOS-umbrella.h"; sourceTree = "<group>"; };
-		78AE5273F1A998459B79C232D0FC9142 /* MediastreamPlatformSDKiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MediastreamPlatformSDKiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		78AE5273F1A998459B79C232D0FC9142 /* MediastreamPlatformSDKiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MediastreamPlatformSDKiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CA5E020C1D2AEE8B55F46F832DB5F94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86415925F7520FBC64A0A61BAD99D597 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86415925F7520FBC64A0A61BAD99D597 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		951FB44329E1F696AB483F370DF40BC8 /* Pods-MediastreamPlatformSDKiOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MediastreamPlatformSDKiOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A350A90C9E123CF7FB0D3D27C96A6DB4 /* Pods-MediastreamPlatformSDKiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediastreamPlatformSDKiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A884409D38902F36B460F1F9CE447309 /* Pods-MediastreamPlatformSDKiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediastreamPlatformSDKiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -49,8 +79,28 @@
 		BC4EF102A902E89D20F7D0C6CF841267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C316E402218441AC477CA17591A24695 /* Pods-MediastreamPlatformSDKiOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediastreamPlatformSDKiOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CACCB5E2C5FFF24B32891AEB47FF627A /* Pods-MediastreamPlatformSDKiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediastreamPlatformSDKiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF4C2359FC89752D77D5891832A5A636 /* MediastreamPlatformSDKiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MediastreamPlatformSDKiOS.framework; path = MediastreamPlatformSDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9997F403B2628CB45180ED48CD53DB9 /* Pods_MediastreamPlatformSDKiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MediastreamPlatformSDKiOS_Tests.framework; path = "Pods-MediastreamPlatformSDKiOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4C2359FC89752D77D5891832A5A636 /* MediastreamPlatformSDKiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediastreamPlatformSDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5439AC32153D4FE001DA57D /* MediastreamPlatformSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamPlatformSDK.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamPlatformSDK.swift; sourceTree = "<group>"; };
+		E5439AC52153E3A8001DA57D /* RestApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RestApiManager.swift; path = MediastreamPlatformSDKiOS/Classes/RestApiManager.swift; sourceTree = "<group>"; };
+		E5439AC72153E3C4001DA57D /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = MediastreamPlatformSDKiOS/Classes/SwiftyJSON.swift; sourceTree = "<group>"; };
+		E5439AC92153E3E1001DA57D /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventManager.swift; path = MediastreamPlatformSDKiOS/Classes/EventManager.swift; sourceTree = "<group>"; };
+		E5439ACB2153E3F6001DA57D /* MediastreamPlayerTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamPlayerTracker.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamPlayerTracker.swift; sourceTree = "<group>"; };
+		E5439ACF2153E43E001DA57D /* MediastreamLoadingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediastreamLoadingUIView.swift; sourceTree = "<group>"; };
+		E5439AD12153E483001DA57D /* MediastreamLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MediastreamLoadingView.xib; path = MediastreamPlatformSDKiOS/Classes/MediastreamLoadingView.xib; sourceTree = "<group>"; };
+		E5439AD22153E4A4001DA57D /* MediastreamCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MediastreamCustomView.xib; path = MediastreamPlatformSDKiOS/Classes/MediastreamCustomView.xib; sourceTree = "<group>"; };
+		E5439AD32153E4BA001DA57D /* MediastreamCustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamCustomUIView.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamCustomUIView.swift; sourceTree = "<group>"; };
+		E5439AD52153E935001DA57D /* MediastreamLoadingUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediastreamLoadingUIView.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamLoadingUIView.swift; sourceTree = "<group>"; };
+		E5439AD62153E935001DA57D /* MediastreamEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediastreamEventHandler.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamEventHandler.swift; sourceTree = "<group>"; };
+		E5439AE321541EE4001DA57D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MediastreamPlatformSDKiOS/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		E5D96198214C005C00BE3FED /* MediastreamMessagesUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamMessagesUIView.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamMessagesUIView.swift; sourceTree = "<group>"; };
+		E5D9619A214C009300BE3FED /* MediastreamMessagesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MediastreamMessagesView.xib; path = MediastreamPlatformSDKiOS/Classes/MediastreamMessagesView.xib; sourceTree = "<group>"; };
+		E5D9619B214C00AF00BE3FED /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = MediastreamPlatformSDKiOS/Classes/Asset.swift; sourceTree = "<group>"; };
+		E5D9619D214C00C400BE3FED /* AssetLoaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssetLoaderDelegate.swift; path = MediastreamPlatformSDKiOS/Classes/AssetLoaderDelegate.swift; sourceTree = "<group>"; };
+		E5D9619F214C00DA00BE3FED /* AssetPlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssetPlaybackManager.swift; path = MediastreamPlatformSDKiOS/Classes/AssetPlaybackManager.swift; sourceTree = "<group>"; };
+		E5D961A1214C00ED00BE3FED /* MediastreamPlayerReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamPlayerReachability.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamPlayerReachability.swift; sourceTree = "<group>"; };
+		E5D961A3214C010D00BE3FED /* MediastreamPlatformSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediastreamPlatformSDK.h; path = MediastreamPlatformSDKiOS/Classes/MediastreamPlatformSDK.h; sourceTree = "<group>"; };
+		E5D961A5214C013800BE3FED /* MediastreamPlayerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamPlayerConfig.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamPlayerConfig.swift; sourceTree = "<group>"; };
+		F9997F403B2628CB45180ED48CD53DB9 /* Pods_MediastreamPlatformSDKiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediastreamPlatformSDKiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,9 +220,28 @@
 		EE8C826E6160E6B79831430007C53F93 /* MediastreamPlatformSDKiOS */ = {
 			isa = PBXGroup;
 			children = (
-				067AB90CCEB351A80940682E757A0B70 /* ReplaceMe.swift */,
+				E5439AE321541EE4001DA57D /* Assets.xcassets */,
+				E5439AD62153E935001DA57D /* MediastreamEventHandler.swift */,
+				E5439AD52153E935001DA57D /* MediastreamLoadingUIView.swift */,
 				88E4DFB0204DFA7B7420FDAACD1EEE59 /* Pod */,
 				7E09C80CCC8A0A05D64B70F2BA0AE5D6 /* Support Files */,
+				E5D96198214C005C00BE3FED /* MediastreamMessagesUIView.swift */,
+				E5D9619A214C009300BE3FED /* MediastreamMessagesView.xib */,
+				E5D9619B214C00AF00BE3FED /* Asset.swift */,
+				E5D9619D214C00C400BE3FED /* AssetLoaderDelegate.swift */,
+				E5D9619F214C00DA00BE3FED /* AssetPlaybackManager.swift */,
+				E5D961A1214C00ED00BE3FED /* MediastreamPlayerReachability.swift */,
+				E5D961A3214C010D00BE3FED /* MediastreamPlatformSDK.h */,
+				E5D961A5214C013800BE3FED /* MediastreamPlayerConfig.swift */,
+				E5439AC32153D4FE001DA57D /* MediastreamPlatformSDK.swift */,
+				E5439AC52153E3A8001DA57D /* RestApiManager.swift */,
+				E5439AC72153E3C4001DA57D /* SwiftyJSON.swift */,
+				E5439AC92153E3E1001DA57D /* EventManager.swift */,
+				E5439ACB2153E3F6001DA57D /* MediastreamPlayerTracker.swift */,
+				E5439AD12153E483001DA57D /* MediastreamLoadingView.xib */,
+				E5439ACF2153E43E001DA57D /* MediastreamLoadingUIView.swift */,
+				E5439AD22153E4A4001DA57D /* MediastreamCustomView.xib */,
+				E5439AD32153E4BA001DA57D /* MediastreamCustomUIView.swift */,
 			);
 			name = MediastreamPlatformSDKiOS;
 			path = ../..;
@@ -186,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8414A22085D81C9C2B2D34F4AB62528 /* MediastreamPlatformSDKiOS-umbrella.h in Headers */,
+				E5D961A4214C011900BE3FED /* MediastreamPlatformSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +295,8 @@
 				09402077E89CC77C52BA4E0D28E49205 /* Sources */,
 				2DC36F578B9A06150D65C7776FCD0377 /* Frameworks */,
 				4F4B9CD2BF02A7AD3EFF65A680132BB8 /* Headers */,
+				E5439AD92154190C001DA57D /* Resources */,
+				E5439ADF21541A9A001DA57D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -262,13 +334,41 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E5439AD92154190C001DA57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5439ADA2154192A001DA57D /* MediastreamMessagesView.xib in Resources */,
+				E5439ADC2154192A001DA57D /* MediastreamLoadingView.xib in Resources */,
+				E5439AE421541EE4001DA57D /* Assets.xcassets in Resources */,
+				E5439ADD2154192A001DA57D /* MediastreamCustomView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09402077E89CC77C52BA4E0D28E49205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D961A2214C00ED00BE3FED /* MediastreamPlayerReachability.swift in Sources */,
+				E5D961A6214C013800BE3FED /* MediastreamPlayerConfig.swift in Sources */,
+				E5439AD02153E43E001DA57D /* MediastreamLoadingUIView.swift in Sources */,
+				E5439ACA2153E3E1001DA57D /* EventManager.swift in Sources */,
+				E5439AD82153E935001DA57D /* MediastreamEventHandler.swift in Sources */,
+				E5439AD42153E4BA001DA57D /* MediastreamCustomUIView.swift in Sources */,
+				E5439AC62153E3A8001DA57D /* RestApiManager.swift in Sources */,
+				E5439AC82153E3C4001DA57D /* SwiftyJSON.swift in Sources */,
+				E5439AC42153D4FE001DA57D /* MediastreamPlatformSDK.swift in Sources */,
+				E5439AD72153E935001DA57D /* MediastreamLoadingUIView.swift in Sources */,
+				E5D9619C214C00AF00BE3FED /* Asset.swift in Sources */,
+				E5D96199214C005C00BE3FED /* MediastreamMessagesUIView.swift in Sources */,
+				E5D9619E214C00C400BE3FED /* AssetLoaderDelegate.swift in Sources */,
 				AD897D846031FD461907C1F372F90653 /* MediastreamPlatformSDKiOS-dummy.m in Sources */,
-				81D9011B4878A1DDDC35D88084280E70 /* ReplaceMe.swift in Sources */,
+				E5439ACC2153E3F6001DA57D /* MediastreamPlayerTracker.swift in Sources */,
+				E5D961A0214C00DA00BE3FED /* AssetPlaybackManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

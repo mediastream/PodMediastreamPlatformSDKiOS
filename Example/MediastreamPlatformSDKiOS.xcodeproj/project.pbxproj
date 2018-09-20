@@ -18,7 +18,7 @@
 		607FACE51AFB9204008FA782 /* MediastreamPlatformSDKiOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediastreamPlatformSDKiOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6AB424BFC749CF223D669F3E /* MediastreamPlatformSDKiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MediastreamPlatformSDKiOS.podspec; path = ../MediastreamPlatformSDKiOS.podspec; sourceTree = "<group>"; };
+		6AB424BFC749CF223D669F3E /* MediastreamPlatformSDKiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MediastreamPlatformSDKiOS.podspec; path = ../MediastreamPlatformSDKiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71A78B26CE57A0291DED1E1A /* Pods-MediastreamPlatformSDKiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediastreamPlatformSDKiOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediastreamPlatformSDKiOS_Tests/Pods-MediastreamPlatformSDKiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7A0E4B1E094104A130290518 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
