@@ -8,6 +8,7 @@
 import AVFoundation
 import AVKit
 import GoogleInteractiveMediaAds
+import YouboraAVPlayerAdapter
 
 open class MediastreamPlatformSDK: UIViewController, IMAAdsLoaderDelegate, IMAAdsManagerDelegate {
     let reachability = MediastreamPlayerReachability()
@@ -71,6 +72,10 @@ open class MediastreamPlatformSDK: UIViewController, IMAAdsLoaderDelegate, IMAAd
         case PRODUCTION = "https://platform-static.cdn.mdstrm.com"
         case DEV = "https://platform-devel.s-mdstrm.com"
     }
+    
+    //Youbora
+    var plugin:YBPlugin? = nil
+    var wrapper:YBAVPlayerAdapterSwiftWrapper? = nil;
     
     public convenience init() {
         self.init(imageURL: nil)
@@ -155,6 +160,7 @@ open class MediastreamPlatformSDK: UIViewController, IMAAdsLoaderDelegate, IMAAd
             self.playerLayer = nil
             self.player = nil
             self.tracker?.stopTrackPing()
+            self.wrapper?.fireStop()
             self.tracker = nil
         }
     }
@@ -480,6 +486,8 @@ open class MediastreamPlatformSDK: UIViewController, IMAAdsLoaderDelegate, IMAAd
         playerViewController.view.frame = self.view.bounds
         playerViewController.player = self.player
         self.playerViewController = playerViewController
+        self.wrapper = YBAVPlayerAdapterSwiftWrapper.init(player: self.playerViewController?.player, andPlugin: self.plugin)
+        self.wrapper?.fireStart()
         if (self.config?.customUI)! {
             NSLog("MediastreamPlatformSDK: Setting custom layout")
             playerViewController.showsPlaybackControls = false
@@ -534,6 +542,15 @@ open class MediastreamPlatformSDK: UIViewController, IMAAdsLoaderDelegate, IMAAd
                 }
                 
                 if mediaInfoJson["player"] != JSON.null {
+                    if mediaInfoJson["player"]["tracking"] != JSON.null {
+                        if mediaInfoJson["player"]["tracking"]["youbora"] != JSON.null {
+                            if mediaInfoJson["player"]["tracking"]["youbora"]["enabled"] == true && mediaInfoJson["player"]["tracking"]["youbora"]["account_code"].string != nil {
+                                let youboraOptions = YBOptions.init()
+                                youboraOptions.accountCode = mediaInfoJson["player"]["tracking"]["youbora"]["account_code"].string
+                                plugin = YBPlugin(options:youboraOptions)
+                            }
+                        }
+                    }
                     if mediaInfoJson["player"]["base_color"] != JSON.null {
                         let themeColor = hexStringToUIColor(hex: mediaInfoJson["player"]["base_color"].string!)
                         customUI.slider.tintColor = themeColor
