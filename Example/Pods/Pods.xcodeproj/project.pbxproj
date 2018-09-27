@@ -17,7 +17,6 @@
 		E5439AC82153E3C4001DA57D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AC72153E3C4001DA57D /* SwiftyJSON.swift */; };
 		E5439ACA2153E3E1001DA57D /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AC92153E3E1001DA57D /* EventManager.swift */; };
 		E5439ACC2153E3F6001DA57D /* MediastreamPlayerTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439ACB2153E3F6001DA57D /* MediastreamPlayerTracker.swift */; };
-		E5439AD02153E43E001DA57D /* MediastreamLoadingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439ACF2153E43E001DA57D /* MediastreamLoadingUIView.swift */; };
 		E5439AD42153E4BA001DA57D /* MediastreamCustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AD32153E4BA001DA57D /* MediastreamCustomUIView.swift */; };
 		E5439AD72153E935001DA57D /* MediastreamLoadingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AD52153E935001DA57D /* MediastreamLoadingUIView.swift */; };
 		E5439AD82153E935001DA57D /* MediastreamEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5439AD62153E935001DA57D /* MediastreamEventHandler.swift */; };
@@ -85,7 +84,6 @@
 		E5439AC72153E3C4001DA57D /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = MediastreamPlatformSDKiOS/Classes/SwiftyJSON.swift; sourceTree = "<group>"; };
 		E5439AC92153E3E1001DA57D /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventManager.swift; path = MediastreamPlatformSDKiOS/Classes/EventManager.swift; sourceTree = "<group>"; };
 		E5439ACB2153E3F6001DA57D /* MediastreamPlayerTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamPlayerTracker.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamPlayerTracker.swift; sourceTree = "<group>"; };
-		E5439ACF2153E43E001DA57D /* MediastreamLoadingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediastreamLoadingUIView.swift; sourceTree = "<group>"; };
 		E5439AD12153E483001DA57D /* MediastreamLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MediastreamLoadingView.xib; path = MediastreamPlatformSDKiOS/Classes/MediastreamLoadingView.xib; sourceTree = "<group>"; };
 		E5439AD22153E4A4001DA57D /* MediastreamCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MediastreamCustomView.xib; path = MediastreamPlatformSDKiOS/Classes/MediastreamCustomView.xib; sourceTree = "<group>"; };
 		E5439AD32153E4BA001DA57D /* MediastreamCustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediastreamCustomUIView.swift; path = MediastreamPlatformSDKiOS/Classes/MediastreamCustomUIView.swift; sourceTree = "<group>"; };
@@ -239,7 +237,6 @@
 				E5439AC92153E3E1001DA57D /* EventManager.swift */,
 				E5439ACB2153E3F6001DA57D /* MediastreamPlayerTracker.swift */,
 				E5439AD12153E483001DA57D /* MediastreamLoadingView.xib */,
-				E5439ACF2153E43E001DA57D /* MediastreamLoadingUIView.swift */,
 				E5439AD22153E4A4001DA57D /* MediastreamCustomView.xib */,
 				E5439AD32153E4BA001DA57D /* MediastreamCustomUIView.swift */,
 			);
@@ -355,7 +352,6 @@
 			files = (
 				E5D961A2214C00ED00BE3FED /* MediastreamPlayerReachability.swift in Sources */,
 				E5D961A6214C013800BE3FED /* MediastreamPlayerConfig.swift in Sources */,
-				E5439AD02153E43E001DA57D /* MediastreamLoadingUIView.swift in Sources */,
 				E5439ACA2153E3E1001DA57D /* EventManager.swift in Sources */,
 				E5439AD82153E935001DA57D /* MediastreamEventHandler.swift in Sources */,
 				E5439AD42153E4BA001DA57D /* MediastreamCustomUIView.swift in Sources */,
