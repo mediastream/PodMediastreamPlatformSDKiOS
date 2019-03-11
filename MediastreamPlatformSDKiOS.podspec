@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MediastreamPlatformSDKiOS'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'iOS solution for Mediastream Player'
   s.description      = <<-DESC
     iOS solution for Mediastream Player. Install and enjoy it.
@@ -13,5 +13,4 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'MediastreamPlatformSDK.framework'
   s.source           = { :http => 'https://s3.amazonaws.com/mediastream-platform-sdk-ios/sdk/MediastreamPlatformSDK.zip' }
   s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.7'
-  s.dependency 'YouboraAVPlayerAdapter'
 end
